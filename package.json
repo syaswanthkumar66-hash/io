@@ -1,0 +1,28 @@
+{
+  "name": "iotyk-server",
+  "version": "1.0.0",
+  "description": "Backend server for IoTYK platform",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "migrate": "node src/db/migrate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.4.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mqtt": "^5.15.1",
+    "node-cron": "^4.2.1",
+    "pg": "^8.20.0",
+    "uuid": "^14.0.0"
+  }
+}
